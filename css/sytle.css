@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: sans-serif;
+}
+
+nav { 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    /* position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+}
+
+@media (max-width: 567px) {
+    header {
+        padding: 20px 50px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    header img {
+        width: 80px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 326px) {
+    header {
+        padding: 20px 30px;
+    }
+
+    header h1 {
+        font-size: 15px;
+    }
+
+    header img {
+        width: 70px;
+        height: 30px;
+    }
+
+}
+
+.font {
+    padding: 20px 100px;
+}
+
+.font-h3 {
+    margin: 50px 0 25px;
+}
+
+.download-font {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    background-color: rgba(242, 246, 239, 1);
+}
+
+.download-font h2 {
+    padding: 15px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-h2 a {
+    color: black;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.home-heading {
+    padding: 20px 100px;
+    margin: 0 auto;
+}
+
+.heading-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.headline {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 100px;
+    letter-spacing: 0%;
+}
+
+.head-h1 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 120px;
+    letter-spacing: 0%;
+}
+
+.head-h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    letter-spacing: 0px;
+}
+
+.head-h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 60px;
+    letter-spacing: 0px;
+}
+
+.head-h4 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0px;
+}
+
+.head-h5 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 50px;
+    letter-spacing: 0px;
+}
+
+.head-h6 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    line-height: 40px;
+    letter-spacing: 0px;
+}
+
+.paragraphs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.para-p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 107%;
+    letter-spacing: -3%;
+    padding: 50px 0 20px;
+}
+
+.paragraph-pr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0px;
+    color: rgba(82, 85, 96, 1);
+}
+
+.paragraph-pl {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0px;
+    color: rgba(82, 85, 96, 1);
+}
+
+
+
+.colors-type {
+    padding: 20px 100px;
+}
+
+.color-p {
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0px;
+
+}
+
+.colors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 185px;
+    height: 40px;
+    overflow: hidden;
+    border: solid 0.5px white;
+}
+
+.btn:focus {
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.555);
+}
+
+.btn-1 {
+    background-color: rgba(112, 193, 116, 1);
+}
+
+.btn-1[title="green"]:hover{
+     visibility: visible;
+}
+
+.btn-2 {
+    background-color: rgba(190, 243, 192, 1);
+}
+
+.btn-2[title="lightgreen"]:hover{
+    visibility: visible;
+}
+
+.btn-3 {
+    background-color: rgba(239, 247, 242, 1);
+}
+
+.btn-3[title="green tertiary"]:hover {
+    visibility: visible;
+}
+
+.btn-4 {
+    background-color: rgba(11, 7, 6, 1);
+}
+
+.btn-5 {
+    background-color: rgba(29, 33, 48, 1);
+}
+
+.btn-6 {
+    background-color: rgba(82, 85, 96, 1);
+}
+
+.btn-7 {
+    background-color: rgba(235, 240, 249, 1);
+}
+
+.btn-8 {
+    background-color: rgba(229, 229, 229, 1);
+}
+
+.different-btn {
+    padding: 20px 100px;
+    margin: 0 0 50px;
+}
+
+.btn-group {
+    padding: 50px;
+    background-color: rgba(242, 246, 239, 1);
+}
+
+.btns {
+    width: 185px;
+    height: 40px;
+    opacity: 1px white;
+    border: solid 0.5px white;
+    margin: 0 60px 0 0;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%; 
+}
+
+.btnn-1 {
+    background-color: rgba(112, 193, 116, 1);
+    color: white;
+}
+
+.btnn-2 {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+.btnn-3 {
+    background-color: rgba(29, 33, 48, 1);
+    color: white;
+}
+
+.btns:focus {
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.555);
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  a {
+    text-decoration: none;
+}
+
+.nav-link li {
+    list-style: none;
+}
+
+nav {
+    padding: 20px 100px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link li {
+    margin-right: 20px;
+}
+
+.nav-link li a {
+    color: black;
+}
+
+.btn-header {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+
+  
+  .footer {
+    background-color: #0a0a0a;
+    color: rgba(255, 255, 255, 1);
+    padding: 96px 110px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer h3 { 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    padding-bottom: 24px;
+  }
+  .footer a { 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    display: block;
+    color: #ccc;
+    padding-bottom: 24px;
+  }
+  .footer a:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+  .subscribe {
+    width: 544px;
+  }
+  .subscribe h3 {
+    width: 440px;
+    height: 112px; 
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    margin-bottom: 32px;
+  }
+  .subscribe input[type="email"] {
+    padding: 22px;
+    width: 400px;
+    height: 64px;
+  
+    border: 1px solid rgba(235, 240, 249, 0.3);
+    background-color: rgba(11, 7, 6, 1);
+  }
+  form {
+    position: relative;
+  }
+  .subscribe button {
+    padding: 22px;
+    position: fixed;
+    border: none;
+    width: 136px;
+    height: 64px;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+  }
+  .subscribe button:hover {
+    background-color: #ddd;
+  }
